@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>個人履歷</title>
+    <style>
+        .deco-box{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(120, 240, 248);
+        }
+        .bg-cover{
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+        .bg-attachment-fixed{
+            background-attachment: fixed;
+        }
+        .object-fit-cover{
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>    
+    <header class="min-vh-100 position-relative">
+        <div class="deco-box position-absolute top-0 start-0"></div>
+        <div class="deco-box position-absolute bottom-0 end-0"></div>   
+        <div class="position-absolute bg-cover bg-attachment-fixed"
+        style="top: 30px; bottom: 30px; left: 30px; right: 30px; 
+        background-image: 
+        url(https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=656&q=80);"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h1 class="display-1 fw-bold">黃昱瑋</h1>
+            <hr>
+            <h2>Huang yu wei</h2>
+            <p>夢想不會飛走，只有人會飛走</p>
+        </div>
+    </header>
+    <div class="container py-5">        
+        <div class="row justify-content-center flex-md-row-reverse gy-3">
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1548032885-b5e38734688a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=656&q=80" 
+                class="w-100 object-fit-cover" height="590" alt="個人圖">
+            </div>
+            <div class="col-md-5 d-flex align-items-center">
+                <div>
+                    <h2 class="display-4">我的冒險故事:</h2>
+                    <p>我是黃昱瑋，畢業於醒吾科技大學目前家住新北市新莊區，高職時，我學到了動畫製作、影
+                        片剪接、遊戲製作、文書處理、網頁設計，但是這些都只是輕輕帶過。實際並沒有很深的講解與
+                        解說，所以我在選擇我大學是否繼續讀資訊科系時。決定繼續往資訊科技發展，一方面是對於未來資訊工作一定很多另一方面是對於電腦相關的事物我也沒有到不喜歡。大學時真的
+                        更深入學習很多，像是Unity使用C#製作遊戲這件事我在高職時就有碰過，不過高職是輕輕帶過，大學是先講C#程式語言在開始教學Unity。這也讓我在大學專題時的題
+                        目就跟Unity有關係。中間還學到資料庫程式的撰寫，但是我沒用在Unity遊戲製作上。專題內容是很簡單的對話、菜單顯示、小遊戲，有無資料庫沒有很大影響。至於為甚麼
+                        我會突然往網頁前端發展，是我在製作專題時
+                        就爬過非常多關於程式的文章。因為我對於程式設計的了解真的沒有很廣泛，還有很多的軟體我不知道。我是已C#為原點去搜尋資料看看還有甚麼工作就看到了MVC網頁後端架構，就讓我想起之前有看過一篇文章說
+                        了一些類型。有假設想做APP、寫遊戲等等，其中就有說道沒特定目標可以先學網頁程式設計。加上我因為自學MVC架構學到了前端技術，前端跟後端我製作過程的感受
+                        是前端比較學得起來，後端對於當下的我可能不是最好的選擇。所以我就打算先學好前端當作
+                        我踏入程式設計的開端。這期間我也慢慢學習HTML、CSS、JavaScript，先學會看懂程式在製作一個網站。讓自己可以在製作網站中學會製作流程、程式的各項功能。</p>
+                        <a href="#" class="btn btn-outline-primary mt-4 w-50">
+                            看更多我的冒險故事
+                        </a>
+                </div>                    
+            </div>            
+        </div>
+    </div>
+    <div class="bg-dark py-5 m-md-5">
+        <div class="container">
+            <h2 class="display-4 text-center mb-4">
+                我的實戰作品:
+            </h2>
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card bg-dark text-white">
+                        <img src=".." class="card-img" alt="圖片">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider </p>
+                          <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white">
+                        <img src=".." class="card-img" alt="圖片">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider </p>
+                          <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white">
+                        <img src=".." class="card-img" alt="圖片">
+                        <div class="card-img-overlay">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider</p>
+                          <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
