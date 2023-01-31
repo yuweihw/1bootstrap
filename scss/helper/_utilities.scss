@@ -623,8 +623,19 @@ $utilities: map-merge(
         visible: visible,
         invisible: hidden,
       )
-    )
+    ),
     // scss-docs-end utils-visibility
+    //自己設計的程式
+    "bg-attachment": (
+      property: background-attachment,
+      class: "bg-attachment",
+      values: fixed
+    ),
+    "object-fit": (
+      property: object-fit,
+      class: "object-fit",
+      values: cover
+    )
   ),
   $utilities
 );
